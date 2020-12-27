@@ -12,5 +12,11 @@ libraryDependencies ++= Seq(
     "org.scalikejdbc"         %% "scalikejdbc-test"                     % "3.5.0"   % Test,
     "com.dimafeng"            %% "testcontainers-scala-postgresql"      % "0.38.7"  % Test,
     "com.dimafeng"            %% "testcontainers-scala-scalatest"       % "0.38.7"  % Test,
-    "com.typesafe.slick"      %% "slick"                                % "3.3.3"   % Test
+    "com.typesafe.slick"      %% "slick"                                % "3.3.3",
+    "org.flywaydb"            % "flyway-core"                         % "7.3.2",
+    "org.scalacheck"             %% "scalacheck"                % "1.14.3"                  % Test,
+    "org.scalatestplus"          %% "scalacheck-1-14"           % "3.2.0.0"           % Test,
+    "com.github.alexarchambault" %% "scalacheck-shapeless_1.14" % "1.2.3" % Test
+
+
 )
