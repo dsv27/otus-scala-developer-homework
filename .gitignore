@@ -1,5 +1,10 @@
 # Project exclude paths
-/project/target/
+/project/
 /target/
 /target/scala-2.12/classes/
 /target/scala-2.12/test-classes/
+.metals
+.vscode
+metals.sbt
+.bsp
+.bloop
